@@ -19,7 +19,7 @@ def communicate():
     messages.append(user_message)
 
     response = openai.ChatCompletion.create(
-        model="gpt-4o-mini",
+        model="gpt-5-nano",
         messages=messages
     )
 
